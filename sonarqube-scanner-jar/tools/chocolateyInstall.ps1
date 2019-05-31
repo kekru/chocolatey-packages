@@ -7,3 +7,4 @@ $checksum = '0fabd3fa2e10bbfc5cdf64765ff35e88e7937e48aad51d84401b9f36dbde3678'
 Install-ChocolateyZipPackage $packageName $url $toolsDir -Checksum $checksum -ChecksumType $checksumType
 
 Install-BinFile "sonar-scanner" "$toolsDir\sonar-scanner-$version\bin\sonar-scanner.bat"
+Install-BinFile "sonar-scanner.bat" "$toolsDir\sonar-scanner-$version\bin\sonar-scanner.bat"

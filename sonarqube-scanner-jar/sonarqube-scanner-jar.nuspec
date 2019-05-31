@@ -4,7 +4,7 @@
   <metadata>
     <id>sonarqube-scanner-jar</id>
     <version>3.3.0.1492</version>
-    <title>SonarQube Scanner</title>
+    <title>SonarQube Scanner (jar only)</title>
     <summary>Official SonarQube Scanner used to start code analysis.</summary>
     <description>
        Official SonarQube Scanner used to start code analysis. 

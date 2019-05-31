@@ -4,9 +4,9 @@
 
 ```bash
 choco pack
-choco install -y sonarqube-scanner-jar -dv -s .
+choco install -y sonarqube-scanner-jar --force -dv -s .
 sonarqube-scanner --version
-choco uninstall sonarqube-scanner-jar
+choco uninstall -y sonarqube-scanner-jar
 ```
 
 ## Push to chocolatey.org
