@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sonarqube-scanner-jar</id>
+    <version>3.3.0.1492</version>
+    <title>SonarQube Scanner</title>
+    <summary>Official SonarQube Scanner used to start code analysis.</summary>
+    <description>
+       Official SonarQube Scanner used to start code analysis. 
+       No Java installation included. Please install Java separately or use https://chocolatey.org/packages/sonarqube-scanner.portable. 
+       This is forked and modified from https://github.com/Roemer/Chocolatey-Packages/tree/master/sonarqube-scanner.portable (MIT licensed)
+    </description>
+    <projectUrl>http://www.sonarqube.org/</projectUrl>
+    <projectSourceUrl>https://github.com/SonarSource/sonar-scanner-cli</projectSourceUrl>
+    <docsUrl>http://docs.sonarqube.org/display/SONAR/Analyzing+with+SonarQube+Scanner</docsUrl>
+    <bugTrackerUrl>http://jira.sonarsource.com/browse/SQSCANNER</bugTrackerUrl>
+    <copyright>2008-2019, SonarSource S.A, Switzerland</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>SonarQube</authors>
+    <owners>kekru</owners>
+    <tags>sonar sonarqube scanner runner</tags>
+    <packageSourceUrl>https://github.com/kekru/chocolatey-packages</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
